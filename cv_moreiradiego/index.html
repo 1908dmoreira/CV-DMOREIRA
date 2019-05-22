@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Moreira Diego</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js" charset="utf-8"></script>
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script>
+       google.load("visualization", "1", {packages:["corechart"]});
+       google.setOnLoadCallback(dibujarGrafico);
+       function dibujarGrafico() {
+         // Tabla de datos: valores y etiquetas de la gráfica
+         var data = google.visualization.arrayToDataTable([
+           ['Texto', 'Valor numérico'],
+           ['HTML/CSS', 80],
+           ['S/N', 20],
+         ]);
+         var options = {
+           title: 'HTML/CSS'
+         }
+         // Dibujar el gráfico
+         new google.visualization.PieChart(
+         //ColumnChart sería el tipo de gráfico a dibujar
+           document.getElementById('GraficoGoogleChart-ejemplo-1')
+         ).draw(data, options);
+       }
+     </script>
+
+     <script>
+        google.load("visualization", "1", {packages:["corechart"]});
+        google.setOnLoadCallback(dibujarGrafico);
+        function dibujarGrafico() {
+          // Tabla de datos: valores y etiquetas de la gráfica
+          var data = google.visualization.arrayToDataTable([
+            ['Texto', 'Valor numérico'],
+            ['PHP', 80],
+            ['S/N', 20],
+          ]);
+          var options = {
+            title: 'PHP'
+          }
+          // Dibujar el gráfico
+          new google.visualization.PieChart(
+          //ColumnChart sería el tipo de gráfico a dibujar
+            document.getElementById('GraficoGoogleChart-ejemplo-2')
+          ).draw(data, options);
+        }
+      </script>
+
+      <script>
+         google.load("visualization", "1", {packages:["corechart"]});
+         google.setOnLoadCallback(dibujarGrafico);
+         function dibujarGrafico() {
+           // Tabla de datos: valores y etiquetas de la gráfica
+           var data = google.visualization.arrayToDataTable([
+             ['Texto', 'Valor numérico'],
+             ['Visual Basic 6.0', 90],
+             ['S/N', 10],
+           ]);
+           var options = {
+             title: 'Visual Basic 6.0'
+           }
+           // Dibujar el gráfico
+           new google.visualization.PieChart(
+           //ColumnChart sería el tipo de gráfico a dibujar
+             document.getElementById('GraficoGoogleChart-ejemplo-3')
+           ).draw(data, options);
+         }
+       </script>
+
+       <script>
+          google.load("visualization", "1", {packages:["corechart"]});
+          google.setOnLoadCallback(dibujarGrafico);
+          function dibujarGrafico() {
+            // Tabla de datos: valores y etiquetas de la gráfica
+            var data = google.visualization.arrayToDataTable([
+              ['Texto', 'Valor numérico'],
+              ['Cobol', 90],
+              ['S/N', 10],
+            ]);
+            var options = {
+              title: 'Cobol'
+            }
+            // Dibujar el gráfico
+            new google.visualization.PieChart(
+            //ColumnChart sería el tipo de gráfico a dibujar
+              document.getElementById('GraficoGoogleChart-ejemplo-4')
+            ).draw(data, options);
+          }
+        </script>
+
+        <script>
+           google.load("visualization", "1", {packages:["corechart"]});
+           google.setOnLoadCallback(dibujarGrafico);
+           function dibujarGrafico() {
+             // Tabla de datos: valores y etiquetas de la gráfica
+             var data = google.visualization.arrayToDataTable([
+               ['Texto', 'Valor numérico'],
+               ['MySql', 80],
+               ['S/N', 20],
+             ]);
+             var options = {
+               title: 'MySql'
+             }
+             // Dibujar el gráfico
+             new google.visualization.PieChart(
+             //ColumnChart sería el tipo de gráfico a dibujar
+               document.getElementById('GraficoGoogleChart-ejemplo-5')
+             ).draw(data, options);
+           }
+         </script>
+
+         <script>
+            google.load("visualization", "1", {packages:["corechart"]});
+            google.setOnLoadCallback(dibujarGrafico);
+            function dibujarGrafico() {
+              // Tabla de datos: valores y etiquetas de la gráfica
+              var data = google.visualization.arrayToDataTable([
+                ['Texto', 'Valor numérico'],
+                ['SQL Server', 70],
+                ['S/N', 30],
+              ]);
+              var options = {
+                title: 'SQL Server'
+              }
+              // Dibujar el gráfico
+              new google.visualization.PieChart(
+              //ColumnChart sería el tipo de gráfico a dibujar
+                document.getElementById('GraficoGoogleChart-ejemplo-6')
+              ).draw(data, options);
+            }
+          </script>
+
+          <script>
+             google.load("visualization", "1", {packages:["corechart"]});
+             google.setOnLoadCallback(dibujarGrafico);
+             function dibujarGrafico() {
+               // Tabla de datos: valores y etiquetas de la gráfica
+               var data = google.visualization.arrayToDataTable([
+                 ['Texto', 'Valor numérico'],
+                 ['Crystal Report', 90],
+                 ['S/N', 10],
+               ]);
+               var options = {
+                 title: 'Cristal Reports'
+               }
+               // Dibujar el gráfico
+               new google.visualization.PieChart(
+               //ColumnChart sería el tipo de gráfico a dibujar
+                 document.getElementById('GraficoGoogleChart-ejemplo-7')
+               ).draw(data, options);
+             }
+           </script>
+
+           <script>
+              google.load("visualization", "1", {packages:["corechart"]});
+              google.setOnLoadCallback(dibujarGrafico);
+              function dibujarGrafico() {
+                // Tabla de datos: valores y etiquetas de la gráfica
+                var data = google.visualization.arrayToDataTable([
+                  ['Texto', 'Valor numérico'],
+                  ['Hareware', 20],
+                  ['Software', 60],
+                  ['Redes', 10],
+                  ['Telefonia', 10],
+                ]);
+                var options = {
+                  title: 'Informatica'
+                }
+                // Dibujar el gráfico
+                new google.visualization.PieChart(
+                //ColumnChart sería el tipo de gráfico a dibujar
+                  document.getElementById('GraficoGoogleChart-ejemplo-8')
+                ).draw(data, options);
+              }
+            </script>
+
+  </head>
+  <body>
+       <div class="container">
+         <h1>MOREIRA DIEGO HERNAN</h1>
+         <h5>WEB DESIGNER DEVELOPER</h5>
+         <br>
+         <ul>
+           <li><a class="aright" href="#perfil">PERFIL </a></li>
+           <li><a class="aright" href="#skills">CONOCIMIENTOS </a></li>
+           <li><a class="aright" href="#exp">EXPERIENCIA </a></li>
+          <li><a  class="aright" href="#edu">EDUCACION </a></li>
+           <li><a class="aleft" href="#cont">CONTACTO</a></li>
+         </ul>
+         <br>
+         <br>
+       </div>
+       <br>
+
+
+       <div class="about" id="perfil">
+         <div class="title">
+           <h2>PERFIL</h2>
+         </div>
+         <br>
+         <p>_______________________________________________________________________________________________________________________________________________________________________________________</p>
+         <br><br>
+
+         <div class="info-gral">
+           <div class="info-redes">
+             <p><strong>DNI: </strong>34.028.013</p>
+             <p><strong>Fecha de Nacimiento: </strong> 13 de Agosto de 1988</p>
+             <p><strong>Localidad: </strong> Castelar</p>
+             <p><strong>Telefono: </strong>(011) 4654-7061</p>
+             <p><strong>Movil: </strong>(011)5939-4667 </p>
+             <p><strong>E-Mail: </strong>moreira.d.h@hotmail.com / dmoreira.uasa@gmail.com </p>
+             <ul class="redes">
+               <li><a href="https://wa.me/541159394667?text=Me%20gustaría%20comunicarme%20con%20ustedes" title="Whatsapp" > <img src="img/Whatsapp.png" alt=""> </a>
+               </li>
+               <li><a href="https://www.facebook.com/diego.moreira.549" title="Facebook" > <img src="img/Facebook.png" alt=""> </a>
+               </li>
+               <li><a href="#cont"> <img src="img/Gmail.png" title="Contacto" alt=""> </a>
+               </li>
+               <li><a href="#cont"> <img src="img/Hotmail.png" title="Contacto" alt=""> </a>
+               </li>
+               <li><a href="https://www.linkedin.com/in/diego-moreira-914038158/"> <img src="img/Linkedin.png" alt=""> </a>
+               </li>
+             </ul>
+           </div>
+
+           <div class="info">
+             <p><img src="img/foto-perfil.jpg" alt=""> Analista en Sistemas hábil en el manejo de diversas herramientas de Desarrollo de Sistemas. Cuanto con mas de <strong> 10 años de experiencia en el rubro</strong>, en los cuales he logrado trabajar con diferentes plataformas y diversidad de información, la cual a llevado al crecimiento de conocimientos Administrativos y Financieros de empresas multinacionales, ademas de un amplio conocimiento en el área de facturación y registracion de Tarjetas de Crédito en el ámbito Bancario.</p>
+           </div>
+
+         </div>
+
+       </div>
+       <br><br>
+       <div class="about" id="skills">
+         <div class="title">
+           <h2>CONOCIMIENTOS</h2>
+         </div>
+         <br>
+         <p>_______________________________________________________________________________________________________________________________________________________________________________________</p>
+
+         <div class="cont-graf">
+             <div class="graf-skills" id="GraficoGoogleChart-ejemplo-1">
+             </div>
+             <div class="graf-skills" id="GraficoGoogleChart-ejemplo-2">
+             </div>
+             <div class="graf-skills" id="GraficoGoogleChart-ejemplo-3">
+             </div>
+             <div class="graf-skills" id="GraficoGoogleChart-ejemplo-4">
+             </div>
+             <div class="graf-skills" id="GraficoGoogleChart-ejemplo-5">
+             </div>
+             <div class="graf-skills" id="GraficoGoogleChart-ejemplo-6">
+             </div>
+             <div class="graf-skills" id="GraficoGoogleChart-ejemplo-7">
+             </div>
+             <div class="graf-skills" id="GraficoGoogleChart-ejemplo-8">
+             </div>
+         </div>
+
+      </div>
+
+
+
+
+         <br><br><br><br>
+       <div class="container2">
+         <br>
+         <div class="about about2" id="exp">
+           <div class="title2">
+             <h2>EXPERIENCIA</h2>
+           </div>
+           <br>
+         <p>_______________________________________________________________________________________________________________________________________________________________________________________</p>
+         </div>
+
+       <br><br>
+         <div class="about about2" id="edu">
+           <div class="title2">
+             <h2>EDUCACION</h2>
+           </div>
+           <br>
+         <p>_______________________________________________________________________________________________________________________________________________________________________________________</p>
+         </div>
+       <br><br>
+         <div class="about about2" id="cont">
+           <div class="title2">
+             <h2>CONTACTO</h2>
+           </div>
+           <br>
+         <p>_______________________________________________________________________________________________________________________________________________________________________________________</p>
+           <div class="">
+             <script src="https://www.powr.io/powr.js?platform=html"></script>
+             <div class="powr-form-builder" id="97b42f0c_1556559879"></div>
+
+           </div>
+         </div>
+       <br><br><br><br><br>
+       </div>
+
+
+
+  </body>
+</html>

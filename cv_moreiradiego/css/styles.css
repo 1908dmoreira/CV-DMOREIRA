@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+.container{
+  background: rgb(191, 191, 191);
+}
+
+.container h1{
+  color: rgb(30, 1, 87);
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+.container h5{
+  color: rgb(30, 1, 87);
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.container ul{
+  background: rgb(30, 1, 87);
+  text-align: center;
+  font-size: 1em;
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+.container ul > li{
+  display: inline-block;
+  padding: 15px 0px;
+
+}
+
+.container ul > li > a{
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.container ul > li > a:hover{
+  transition: 3s;
+  color: rgb(158, 158, 158);
+}
+
+.aright{
+    border-right: solid 1px rgb(255, 255, 255);
+    padding: 0px 15px 0px 15px;
+}
+
+.aleft{
+    padding: 0px 15px 0px 15px;
+}
+
+.about{
+  clear: both;
+  position: relative;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 50px;
+}
+
+.title{
+  float: left;
+  width: 20%;
+  background: rgb(30, 1, 87);
+  border-radius: 10px;
+}
+
+.title h2{
+  text-align: left;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+}
+
+.about p{
+  float: right;
+  width: 78%;
+  color: rgb(30, 1, 87);
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.container2{
+  background: rgb(30, 1, 87);
+}
+
+.title2{
+  float: left;
+  width: 20%;
+  background: rgb(0, 126, 230);
+  border-radius: 10px;
+}
+
+.title2 h2{
+  text-align: left;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+}
+
+.about2 p{
+  float: right;
+  width: 78%;
+  color: rgb(0, 126, 230);
+  font-weight: bold;
+  font-size: 10px;
+}
+
+
+.info-gral{
+  width: 100%;
+  height: auto;
+}
+
+.info{
+  float: right;
+  width: 78%;
+}
+
+.info p{
+  width: 100%;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+  font-style: normal;
+  font-weight: lighter;
+}
+
+.info p img{
+  width: 15%;
+  height: 15%;
+}
+
+.info-redes{
+  float: left;
+  width: 20%;
+}
+
+.info-redes p{
+  width: 100%;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+  font-style: normal;
+  font-weight: lighter;
+
+}
+
+.redes li{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.cont-graf{
+  clear: both;
+  position: relative;
+}
+.graf-skills{
+  float: left;
+  margin: 10px;
+  width: 250px;
+  height: 150px;
+}
