@@ -5,10 +5,32 @@
 
     <title>Moreira Diego</title>
 
+    <meta name="description" content="Curriculum Vitae" />
+
     <link rel="stylesheet" href="css/styles.css">
 
     <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
     <script src="js/jquery.mobile-1.4.5.min.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+        $('.ir-arriba').click(function(){
+          $('body, html').animate({
+            scrollTop: '0px'
+          }, 300);
+        });
+
+        $(window).scroll(function(){
+          if( $(this).scrollTop() > 0 ){
+            $('.ir-arriba').slideDown(300);
+          } else {
+            $('.ir-arriba').slideUp(300);
+          }
+        });
+
+        });
+    </script>
 
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script>
@@ -183,9 +205,11 @@
 
   </head>
   <body>
+       <a href="#" class="ir-arriba icon-arrow-up2"> <img src="img/up.png" alt=""> </a>
+
        <div class="container">
          <h1>MOREIRA DIEGO HERNAN</h1>
-         <h5>WEB DESIGNER DEVELOPER</h5>
+         <h2>WEB DESIGNER DEVELOPER</h2>
          <br>
          <ul>
            <li><a class="aright" href="#perfil">PERFIL </a></li>
@@ -197,9 +221,8 @@
          <br>
          <br>
        </div>
+
        <br>
-
-
        <div class="about" id="perfil">
          <div class="title">
            <h2>PERFIL</h2>
@@ -207,7 +230,6 @@
          <br>
          <p>_______________________________________________________________________________________________________________________________________________________________________________________</p>
          <br><br>
-
          <div class="info-gral">
            <div class="info-redes">
              <p><strong>DNI: </strong>34.028.013</p>
@@ -231,47 +253,96 @@
            </div>
 
            <div class="info">
-             <p><img src="img/foto-perfil.jpg" alt=""> Analista en Sistemas hábil en el manejo de diversas herramientas de Desarrollo de Sistemas. Cuanto con mas de <strong> 10 años de experiencia en el rubro</strong>, en los cuales he logrado trabajar con diferentes plataformas y diversidad de información, la cual a llevado al crecimiento de conocimientos Administrativos y Financieros de empresas multinacionales, ademas de un amplio conocimiento en el área de facturación y registracion de Tarjetas de Crédito en el ámbito Bancario.</p>
+             <p><img src="img/foto-perfil.jpg" alt=""> <strong>Analista en Sistemas</strong> hábil en el manejo de diversas herramientas de Desarrollo de Sistemas. Cuanto con mas de <strong> 10 años de experiencia en el rubro</strong>, en los cuales he logrado trabajar con diferentes plataformas y diversidad de información, la cual a llevado al crecimiento de conocimientos Administrativos y Financieros de empresas multinacionales, ademas de un amplio conocimiento en el área de facturación y registracion de Tarjetas de Crédito en el rubro Bancario.</p>
            </div>
 
          </div>
 
        </div>
+
        <br><br>
-       <div class="about" id="skills">
+       <div class="about" id="edu">
          <div class="title">
-           <h2>CONOCIMIENTOS</h2>
+           <h2>EDUCACION</h2>
          </div>
          <br>
-         <p>_______________________________________________________________________________________________________________________________________________________________________________________</p>
+       <p>_______________________________________________________________________________________________________________________________________________________________________________________</p>
+       </div>
 
-         <div class="cont-graf">
-             <div class="graf-skills" id="GraficoGoogleChart-ejemplo-1">
-             </div>
-             <div class="graf-skills" id="GraficoGoogleChart-ejemplo-2">
-             </div>
-             <div class="graf-skills" id="GraficoGoogleChart-ejemplo-3">
-             </div>
-             <div class="graf-skills" id="GraficoGoogleChart-ejemplo-4">
-             </div>
-             <div class="graf-skills" id="GraficoGoogleChart-ejemplo-5">
-             </div>
-             <div class="graf-skills" id="GraficoGoogleChart-ejemplo-6">
-             </div>
-             <div class="graf-skills" id="GraficoGoogleChart-ejemplo-7">
-             </div>
-             <div class="graf-skills" id="GraficoGoogleChart-ejemplo-8">
-             </div>
+       <div class="info-edu">
+         <span><strong>Estudios Secundarios</strong></span><br>
+         <ul class="info-edu-ul">
+           <li> <p><strong>2007-2002  Técnico  en  Computación</strong>  -  Escuela  Técnica  Nª 35 – CABA.</p> </li>
+         </ul><br>
+         <span><strong>Estudios Terciarios</strong></span><br>
+         <ul class="info-edu-ul">
+           <li> <p><strong>2015- 2010 Analista de Sistemas </strong>  -  IRSO Instituto Raúl Scalabrini Ortiz. – CABA.</p> </li>
+         </ul>
+       </div>
+
+       <br><br>
+       <div class="about" id="edu">
+         <div class="title">
+           <h2>CURSOS / SEMINARIOS</h2>
          </div>
+         <br>
+       <p>_______________________________________________________________________________________________________________________________________________________________________________________</p>
+       </div>
+       <br>
+       <div class="info-cur">
+         <ul class="info-cur-ul">
+           <li> <p><strong>2014 </strong>  -  Curso  de  Armado  y  Reparación  de  PC -  ET  Nª  35  -  CABA.</p> </li>
+           <li> <p><strong>2010 </strong>  -  Diseño y Desarrollo de Reportes y Crystal Report 10.</p> </li>
+           <li> <p><strong>2017 </strong>  -  Diseño full stack de páginas Web – Digital House. – CABA.</p> </li>
+         </ul>
+       </div>
 
-      </div>
+       <br><br>
+       <div class="about" id="edu">
+         <div class="title">
+           <h2>IDIOMA</h2>
+         </div>
+         <br>
+       <p>_______________________________________________________________________________________________________________________________________________________________________________________</p>
+       </div>
 
+       <div class="info-cur">
+         <ul class="info-cur-ul">
+           <li> <p><strong>2007-2002 </strong>  -  Inglés  Técnico  en  Ciclo  Superior (4ª - 5ª y 6ª año) ET Nª 35 CABA</p> </li>
+         </ul>
+       </div>
 
-
-
-         <br><br><br><br>
+       <br><br>
        <div class="container2">
          <br>
+         <div class="about  about2" id="skills">
+           <div class="title2">
+             <h2>CONOCIMIENTOS</h2>
+           </div>
+           <br>
+           <p>_______________________________________________________________________________________________________________________________________________________________________________________</p>
+
+           <div class="cont-graf">
+               <div class="graf-skills" id="GraficoGoogleChart-ejemplo-1">
+               </div>
+               <div class="graf-skills" id="GraficoGoogleChart-ejemplo-2">
+               </div>
+               <div class="graf-skills" id="GraficoGoogleChart-ejemplo-3">
+               </div>
+               <div class="graf-skills" id="GraficoGoogleChart-ejemplo-4">
+               </div>
+               <div class="graf-skills" id="GraficoGoogleChart-ejemplo-5">
+               </div>
+               <div class="graf-skills" id="GraficoGoogleChart-ejemplo-6">
+               </div>
+               <div class="graf-skills" id="GraficoGoogleChart-ejemplo-7">
+               </div>
+               <div class="graf-skills" id="GraficoGoogleChart-ejemplo-8">
+               </div>
+           </div>
+        </div>
+
+        <br><br>
          <div class="about about2" id="exp">
            <div class="title2">
              <h2>EXPERIENCIA</h2>
@@ -280,30 +351,31 @@
          <p>_______________________________________________________________________________________________________________________________________________________________________________________</p>
          </div>
 
-       <br><br>
-         <div class="about about2" id="edu">
-           <div class="title2">
-             <h2>EDUCACION</h2>
-           </div>
-           <br>
-         <p>_______________________________________________________________________________________________________________________________________________________________________________________</p>
+         <div class="info-exp">
+           <ul class="info-exp-ul">
+             <li> <p><strong>Marzo 2008 – Junio 2009: Accenture. </strong><br> - Analista Programador Mainframe. (OS/390, Cobol, DB2, Endevor, JCL, assembler)  Proyecto para importante empresa estadounidense. Área: Tarjetas de Crédito. Idioma principal: inglés.
+             Tareas: Análisis y Resolución de incidencias. Testing, programación y mantenimiento de aplicaciones.</p><br><br> </li>
+
+             <li> <p><strong>Junio 2009 – Septiembre 2009: CDA Informática. </strong><br> - Analista Programador Mainframe. Proyecto para Banco Galicia.
+             Tareas: Desarrollo, Testing y mantenimiento de aplicaciones.</p><br><br> </li>
+
+             <li> <p><strong>Noviembre 2009 – Diciembre 2010: Transportes Olivos/Urbaser Argentina. </strong><br> -  Analista Programador, Sistemas (Arsis , Adonix, Meta 4) , Lenguajes de Programacion Cobol, Visual Basic, SQL Server 2005.</p><br><br> </li>
+
+             <li> <p><strong>Enero 2011 – Cont: Trasportes Olivos/Urbaser Argentina. </strong><br> - Responsable en el Área de Desarrollo, con 2 personas a cargo, distribución de tareas, relevamientos, implementaciones, desarrollos, soporte y seguimiento de tareas.</p> </li>
+           </ul>
          </div>
+
        <br><br>
          <div class="about about2" id="cont">
            <div class="title2">
              <h2>CONTACTO</h2>
            </div>
            <br>
-         <p>_______________________________________________________________________________________________________________________________________________________________________________________</p>
-           <div class="">
-             <script src="https://www.powr.io/powr.js?platform=html"></script>
-             <div class="powr-form-builder" id="97b42f0c_1556559879"></div>
-
-           </div>
+           <p>_______________________________________________________________________________________________________________________________________________________________________________________</p>
          </div>
-       <br><br><br><br><br>
+         <script src="https://www.powr.io/powr.js?platform=html"></script>
+         <div class="powr-form-builder" id="97b42f0c_1556559879"></div>
        </div>
-
 
 
   </body>
